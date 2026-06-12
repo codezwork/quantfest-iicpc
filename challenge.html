@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <meta name="description" content="India's Premier Quantitative Challenge — Algorithmic trading, probability, and quant research." />
+  <meta property="og:title" content="QuantFest 2026" />
+  <meta property="og:image" content="images/og-image.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+<title>QuantFest 2026 Challenge Format — Prelims, Regionals & Finals | IICPC</title>
+<meta name="description" content="QuantFest 2026 runs across 3 stages: Prelims at 23 IITs and IIITs, Regionals at 10 IIT campuses, and a 3-day Grand Finale at IIT Madras. Probability, quant reasoning, and trading simulations. Top 600 qualify from Prelims." />
+<link rel="canonical" href="https://quantfest.iicpc.com/challenge" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="QuantFest 2026" />
+<meta property="og:title" content="QuantFest 2026 — India's Premier Quantitative Challenge" />
+<meta property="og:description" content="Probability. Algorithms. Markets. Three stages across IITs nationwide. Sponsored by Jane Street, HRT, Tower Research, IMC & D.E. Shaw. Register for QuantFest 2026." />
+<meta property="og:image" content="https://quantfest.iicpc.com/images/og-image-2026.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:url" content="https://quantfest.iicpc.com/challenge" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="QuantFest 2026 — India's Premier Quantitative Challenge" />
+<meta name="twitter:description" content="Probability. Algorithms. Markets. Three stages across IITs nationwide. Register now." />
+<meta name="twitter:image" content="https://quantfest.iicpc.com/images/og-image-2026.png" />
+
+<!-- Local / India-Specific SEO Notes -->
+<meta name="geo.region" content="IN" />
+<meta name="geo.placename" content="India" />
+
+<!-- Preconnect for fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="favicon.png" />
+
+
+<!-- Organization schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "IICPC Pvt Ltd",
+  "alternateName": "QuantFest",
+  "url": "https://quantfest.iicpc.com",
+  "logo": "https://quantfest.iicpc.com/images/logo.png",
+  "sameAs": [
+    "https://www.instagram.com/iicpc.india",
+    "https://www.linkedin.com/company/iicpc/",
+    "https://youtube.com/@iicpc"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "quantfest-inquiries@iicpc.com",
+    "contactType": "customer support"
+  }
+}
+</script>
+
+
+<!-- GSAP & Three.js -->
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+</head>
+<body>
+  <!-- NAV -->
+  <nav>
+    <div class="container nav-container">
+      <a href="index.html" class="logo" style="display: flex; align-items: center; text-decoration: none;"><img src="QF'26.png" alt="QuantFest 2026 Logo" style="height: 40px; width: auto; object-fit: contain;"></a>
+      
+      <div class="nav-links">
+        <a href="about.html">About</a>
+        <a href="challenge.html" class="active">Challenge</a>
+        <a href="regionals.html">Regionals</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="register.html">Register</a>
+        <a href="register.html" class="btn btn-outline" style="margin-left: 16px;">Register Now</a>
+      </div>
+      
+      <button class="hamburger">☰</button>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <section class="container gsap-reveal" style="padding-top: 150px; padding-bottom: 50px;">
+    <span class="pre-label">&gt; THE CHALLENGE</span>
+    <h1>Three Stages. One Champion.</h1>
+    <p class="text-secondary" style="max-width: 600px; margin-top: 16px;">
+      Detailed format, eligibility, and selection criteria for each round of QuantFest 2026.
+    </p>
+  </section>
+
+  <!-- STAGES DETAILS -->
+  <section class="container gsap-reveal" style="padding-top: 50px;">
+    <div class="grid" style="gap: 40px;">
+      
+      <!-- Stage 1 -->
+      <div class="stage-card gsap-reveal">
+        <span class="stage-num">01</span>
+        <h3 class="stage-title">PRELIMS</h3>
+        <div class="stage-date">Aug 24</div>
+        <div class="stage-format">Online Screen-Proctored</div>
+        <p class="stage-desc text-secondary">An offline, screen-proctored coding assessment on Codeforces featuring challenges rooted in probability, logical reasoning, and puzzle-solving. Held at 23 IITs, IIITs, BITS, ISI, NIT Karnataka, and IISc — with an online track for all other institutes across India.</p>
+        <div class="stage-stat">Top 600 qualify →</div>
+        
+        <details>
+          <summary>View Details & Eligibility</summary>
+          <ul>
+            <li>Open to all enrolled undergraduate and postgraduate college students in India.</li>
+            <li>Platform: Codeforces (Screen-proctored)</li>
+            <li>Duration: 2 hours</li>
+            <li>Topics: Probability, Combinatorics, Graph Theory, DP, Logical Reasoning.</li>
+          </ul>
+        </details>
+      </div>
+      
+      <!-- Stage 2 -->
+      <div class="stage-card gsap-reveal">
+        <span class="stage-num">02</span>
+        <h3 class="stage-title">REGIONALS</h3>
+        <div class="stage-date">Sep 27</div>
+        <div class="stage-format">In-Person</div>
+        <p class="stage-desc text-secondary">In-person at 10 IIT campuses across India. A software-based heuristic and quant simulation designed to test algorithmic thinking and domain knowledge under real-time conditions. Top 600 from Prelims compete for 75 Finals spots.</p>
+        <div class="stage-stat">Top 75 qualify →</div>
+        
+        <details>
+          <summary>View Details & Venues</summary>
+          <ul>
+            <li>Requires in-person attendance at one of the 10 regional centers (travel not sponsored).</li>
+            <li>Simulation engine provided by IICPC; candidates build and deploy algorithmic agents.</li>
+            <li>Regional Venues: IIT Bombay, IIT Delhi, IIT Madras, IIT Kanpur, IIT Kharagpur, IIT Roorkee, IIT Guwahati, IIT Hyderabad, BITS Pilani, IIIT Hyderabad (Tentative for 2026).</li>
+          </ul>
+        </details>
+      </div>
+      
+      <!-- Stage 3 -->
+      <div class="stage-card gsap-reveal">
+        <span class="stage-num">03</span>
+        <h3 class="stage-title">FINALS</h3>
+        <div class="stage-date">Oct 31 – Nov 2</div>
+        <div class="stage-format">Grand Finale</div>
+        <p class="stage-desc text-secondary">Three intense days at IIT Madras Research Park. Trading simulations, Jane Street competitions, HRT challenges, market-making contests, and networking with hiring professionals from the world's top quant firms.</p>
+        <div class="stage-stat">Winner</div>
+        
+        <details>
+          <summary>View Details & Perks</summary>
+          <ul>
+            <li>Travel and accommodation sponsored by QuantFest for all 75 finalists.</li>
+            <li>Exclusive networking dinners with sponsors (Jane Street, Tower Research, etc.).</li>
+            <li>Direct fast-track interview opportunities for top performers.</li>
+            <li>Prize Pool: ₹8L+ distributed among overall winners and specific sponsor contest winners.</li>
+          </ul>
+        </details>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- WAVEFORM DIVIDER -->
+  <div class="section-divider">
+    <svg viewBox="0 0 1200 60" preserveAspectRatio="none">
+      <path d="M0,30 C100,0 200,60 300,30 S500,0 600,30 S800,60 900,30 S1100,0 1200,30"
+            stroke="rgba(0,153,221,0.15)" stroke-width="1.5" fill="none"/>
+    </svg>
+  </div>
+
+  <!-- CTA SECTION -->
+  <section class="container gsap-reveal" style="text-align: center; max-width: 600px;">
+    <h2>Ready to Compete?</h2>
+    <p class="text-secondary" style="margin: 16px 0 32px 0;">Secure your place in QuantFest 2026 and begin your journey to the finals.</p>
+    <a href="register.html" class="btn btn-primary">Register Now →</a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container grid footer-grid">
+      <div>
+        <div class="footer-logo text-cyan">QuantFest</div>
+        <p class="footer-desc">A national initiative by IICPC to identify and develop the next generation of quantitative talent in India.</p>
+        <div class="social-icons">
+          <!-- Instagram SVG -->
+          <a href="#" aria-label="Instagram">
+            <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+          </a>
+          <!-- LinkedIn SVG -->
+          <a href="#" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          </a>
+        </div>
+      </div>
+      
+      <div class="footer-links-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="challenge.html">Challenge</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="register.html">Register</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-links-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:quantfest-inquiries@iicpc.com">quantfest-inquiries@iicpc.com</a></li>
+          <li><a href="#">Founded by Ayush Kumar</a></li>
+          <li><a href="#">IIT Madras</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="container" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; width: 100%;">
+        <div>&copy; 2026 QuantFest &middot; IICPC Pvt Ltd &middot; All rights reserved.</div>
+        <a href="https://www.mambaclub.site/" target="_blank" rel="noopener noreferrer" class="mamba-egg" id="mambaEgg">
+          <span class="mamba-dot"></span>
+          <div class="mamba-text-container">
+            <span class="mamba-default">Systems Operational</span>
+            <div class="mamba-rolling"></div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <div id="mambaTooltip" class="mamba-tooltip">Contact Developer</div>
+
+  <script defer src="main.js"></script>
+</body>
+</html>
